@@ -1,0 +1,99 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+}
+
+button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.urun {
+    background-color: #2c2c2c;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.urunler {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav {
+    margin: 20px;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+.siparis {
+    background-color: gold;
+    color: black !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.siparis:hover {
+    background-color: orange;
+}
+.logo{
+    width:120px;
+    height:120px;
+    margin:20px auto;
+    border-radius:50%;
+    background:gold;
+    color:#111;
+    font-size:50px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 0 20px gold;
+}
+.urun:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.siparis{
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.siparis:hover{
+    background: #ffd700;
+    box-shadow: 0 0 15px gold;
+}
+
+nav a{
+    color: gold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
