@@ -1,43 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<title>Metin2 Market</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GNGRYANG</title>
+
 <style>
-body{background:#1b1b1b;color:white;font-family:Arial;text-align:center;margin:0}
-nav{padding:20px}
+body{margin:0;background:#1b1b1b;color:white;font-family:Arial;text-align:center}
+nav{padding:20px;background:#111;position:sticky;top:0;z-index:10}
 nav a{color:gold;text-decoration:none;margin:15px;font-weight:bold}
-.logo{width:120px;height:120px;background:gold;color:#333;border-radius:50%;margin:20px auto;line-height:120px;font-size:50px;font-weight:bold;box-shadow:0 0 25px gold}
+.logo{width:120px;height:120px;background:gold;color:#222;border-radius:50%;margin:25px auto;line-height:120px;font-size:45px;font-weight:bold;box-shadow:0 0 25px gold}
 h1,h2{color:gold}
-.urunler{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:30px}
-.urun{background:#3a3a3a;width:250px;padding:20px;border-radius:10px;box-shadow:0 0 10px #000}
-.siparis{display:inline-block;background:gold;color:black;padding:10px 20px;text-decoration:none;border-radius:5px;font-weight:bold}
-#iletisim{margin-top:40px;padding:20px;background:#111}
+.urunler,.kutular{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin:20px}
+.urun,.kutu,.odeme{background:#2c2c2c;width:250px;padding:20px;border-radius:12px;box-shadow:0 0 15px #000}
+.urun:hover{transform:scale(1.05);transition:.3s}
+.siparis{display:inline-block;background:gold;color:black;padding:10px 20px;text-decoration:none;border-radius:6px;font-weight:bold}
+.siparis:hover{background:orange}
+.odeme{margin:30px auto;width:360px;max-width:85%}
+#iletisim{background:#111;padding:25px;margin-top:40px}
+.whatsapp{position:fixed;right:20px;bottom:20px;width:60px;height:60px;background:#25D366;color:white;border-radius:50%;text-decoration:none;font-size:30px;display:flex;justify-content:center;align-items:center;box-shadow:0 0 15px #25D366}
 </style>
 </head>
+
 <body>
 
 <nav>
 <a href="#">Anasayfa</a>
-<a href="#">Yang</a>
-<a href="#">EP</a>
+<a href="#yang">Yang</a>
+<a href="#ep">EP</a>
+<a href="#odeme">Ödeme</a>
 <a href="#iletisim">İletişim</a>
 </nav>
 
-<div class="logo">M2</div>
+<div class="logo">GY</div>
+<h1>GNGRYANG</h1>
+<p>Metin2 Yang ve EP Satış Platformu</p>
 
-<h1>Metin2 Market</h1>
-
-<h2>Yang Paketleri</h2>
+<h2 id="yang">Yang Paketleri</h2>
 <div class="urunler">
-<div class="urun"><h3>100M Yang</h3><p>50 TL</p><a class="siparis" href="https://wa.me/905060368250?text=100M Yang siparişi vermek istiyorum" target="_blank">Satın Al</a></div>
-<div class="urun"><h3>500M Yang</h3><p>220 TL</p><a class="siparis" href="https://wa.me/905060368250?text=500M Yang siparişi vermek istiyorum" target="_blank">Satın Al</a></div>
-<div class="urun"><h3>1000M Yang</h3><p>400 TL</p><a class="siparis" href="https://wa.me/905060368250?text=1000M Yang siparişi vermek istiyorum" target="_blank">Satın Al</a></div>
+<div class="urun"><h3>100M Yang</h3><p>50 TL</p><a class="siparis" href="https://wa.me/905060368250?text=Merhaba, 100M Yang siparişi vermek istiyorum." target="_blank">Satın Al</a></div>
+<div class="urun"><h3>500M Yang</h3><p>220 TL</p><a class="siparis" href="https://wa.me/905060368250?text=Merhaba, 500M Yang siparişi vermek istiyorum." target="_blank">Satın Al</a></div>
+<div class="urun"><h3>1000M Yang</h3><p>400 TL</p><a class="siparis" href="https://wa.me/905060368250?text=Merhaba, 1000M Yang siparişi vermek istiyorum." target="_blank">Satın Al</a></div>
 </div>
 
-<h2>EP Paketleri</h2>
+<h2 id="ep">EP Paketleri</h2>
 <div class="urunler">
-<div class="urun"><h3>500 EP</h3><p>150 TL</p><a class="siparis" href="https://wa.me/905060368250?text=500 EP siparişi vermek istiyorum" target="_blank">Satın Al</a></div>
-<div class="urun"><h3>1000 EP</h3><p>280 TL</p><a class="siparis" href="https://wa.me/905060368250?text=1000 EP siparişi vermek istiyorum" target="_blank">Satın Al</a></div>
+<div class="urun"><h3>500 EP</h3><p>150 TL</p><a class="siparis" href="https://wa.me/905060368250?text=Merhaba, 500 EP siparişi vermek istiyorum." target="_blank">Satın Al</a></div>
+<div class="urun"><h3>1000 EP</h3><p>280 TL</p><a class="siparis" href="https://wa.me/905060368250?text=Merhaba, 1000 EP siparişi vermek istiyorum." target="_blank">Satın Al</a></div>
+</div>
+
+<h2>Sunucu Seçenekleri</h2>
+<div class="kutular">
+<div class="kutu">Barbaros</div>
+<div class="kutu">Marmara</div>
+<div class="kutu">Anadolu</div>
+<div class="kutu">Lucifer</div>
+</div>
+
+<h2>Güvenilir Satış</h2>
+<div class="kutular">
+<div class="kutu">✅ Hızlı Teslimat</div>
+<div class="kutu">✅ 7/24 Destek</div>
+<div class="kutu">✅ WhatsApp Sipariş</div>
+</div>
+
+<h2 id="odeme">Ödeme Bilgileri</h2>
+<div class="odeme">
+<p><b>Banka:</b> Türk Ekonomi Bankası (TEB)</p>
+<p><b>IBAN:</b> TR29 0003 2000 0000 0082 9578 73</p>
+<p><b>Alıcı:</b> Hakan Güngör</p>
+<p>Ödeme yaptıktan sonra WhatsApp üzerinden dekont gönderiniz.</p>
+</div>
+
+<h2>Sipariş Takip</h2>
+<div class="kutular">
+<div class="kutu">1️⃣ Sipariş Ver</div>
+<div class="kutu">2️⃣ Ödeme Yap</div>
+<div class="kutu">3️⃣ Dekont Gönder</div>
+<div class="kutu">4️⃣ Teslimat Yapılsın</div>
+</div>
+
+<h2>Referanslar</h2>
+<div class="kutular">
+<div class="kutu">⭐ Hızlı teslimat, teşekkürler.</div>
+<div class="kutu">⭐ Güvenilir alışveriş.</div>
+<div class="kutu">⭐ WhatsApp desteği hızlı.</div>
+</div>
+
+<h2>İstatistik</h2>
+<div class="kutular">
+<div class="kutu">📦 100+ Teslimat</div>
+<div class="kutu">👥 50+ Müşteri</div>
+<div class="kutu">⏱️ Ortalama 5-15 dk</div>
 </div>
 
 <div id="iletisim">
@@ -45,6 +99,8 @@ h1,h2{color:gold}
 <p>WhatsApp: 0506 036 82 50</p>
 <p>7/24 Yang ve EP siparişi için ulaşabilirsiniz.</p>
 </div>
+
+<a href="https://wa.me/905060368250" class="whatsapp" target="_blank">💬</a>
 
 </body>
 </html>
